@@ -1,0 +1,30 @@
+# Exploratory Data Analysis
+
+EDA is the first step in any data science project.
+
+In the **first lab**, we perform some exploratory data analysis using a **database**.
+In the **second lab**, we check if the data can help us predict if **Falcon 9’s first stage will land**.
+
+Some attributes (features) can help us know if the **first stage can be reused**.
+We can use these features with **machine learning** to predict if the first stage will **land successfully**.
+
+We can see that the **success rate has improved since 2013**.
+We can use the **launch number** as a feature.
+
+Different **launch sites** have different success rates.
+This can help us know if the first stage will land.
+For example:
+
+* **CCAFS LC-40** has a success rate of **60%**
+* **KSC LC-39A** and **VAFB SLC 4E** have a success rate of around **77%**
+
+Combining attributes gives us more useful information.
+If we show landing outcome as a color, we see that **CCAFS LC-40** has a **60%** success rate.
+But, if the **mass is above 10,000 kg**, the success rate is **100%**.
+
+So, we will **combine multiple features**.
+
+In the lab, we will find which attributes are **correlated with successful landings**.
+Then, the **categorical variables** will be converted using **one-hot encoding**.
+This prepares the data for a **machine learning model** that predicts if the **first stage will successfully land**.
+
